@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Xiaomi</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.png">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="charts-group">
+            <!-- //////////////////////////////////////////////////// -->
+
+            <div class="chart chart-1">
+                <div class="chart-name">
+                    <p>Статистика по Алертам</p>
+                </div>
+                <div id="chart-1">
+                    <div class="progress-item">
+                        <p class="progress-name">Всего</p>
+                        <div class="progress-container">
+                            <div class="progress-value" id="chart1_1"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <p class="progress-name">Закрыто</p>
+                        <div class="progress-container">
+                            <div class="progress-value" id="chart1_2"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <p class="progress-name">В работе</p>
+                        <div class="progress-container">
+                            <div class="progress-value" id="chart1_3"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <p class="progress-name">Новый</p>
+                        <div class="progress-container">
+                            <div class="progress-value" id="chart1_4"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <p class="progress-name">Просрочен</p>
+                        <div class="progress-container">
+                            <div class="progress-value" id="chart1_5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- //////////////////////////////////////////////////// -->
+            <div class="chart chart-2">
+                <div class="chart-name">
+                    <p>NPS</p>
+                    <p class="nps-content">Насколько вероятно, что Вы порекомендуете наш магазин друзьям и знакомым?</p>
+                </div>
+                <canvas id="chart-2"></canvas>
+
+            </div>
+
+
+
+
+            <!-- //////////////////////////////////////////////////// -->
+
+            <div class="chart chart-3">
+                <div class="chart-name">
+                    <p>Укажите, что именно Вы бы хотели изменить? (Оценки 0-6)</p>
+                </div>
+
+                <div class="chart-3-block">
+                    <div class="canvas-3-wrapper">
+                        <canvas id="chart-3-1"></canvas>
+                    </div>
+                    <div class="canvas-3-wrapper">
+                        <canvas id="chart-3-2"></canvas>
+                    </div>
+                    <div class="canvas-3-wrapper">
+                        <canvas id="chart-3-3"></canvas>
+                    </div>
+                    <div class="canvas-3-wrapper">
+                        <canvas id="chart-3-4"></canvas>
+                    </div>
+                    <div class="canvas-3-wrapper">
+                        <canvas id="chart-3-5"></canvas>
+                    </div>
+                    <div class="canvas-3-wrapper">
+                        <canvas id="chart-3-6"></canvas>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- //////////////////////////////////////////////////// -->
+
+            <div class="chart chart-4">
+
+                <div class="chart-name">
+                    <p>Укажите, что именно Вы бы хотели улучшить? (Оценки 7-8)</p>
+                </div>
+
+                <div class="chart-4-block">
+                    <div class="canvas-4-wrapper">
+                        <canvas id="chart-4-1"></canvas>
+                    </div>
+                    <div class="canvas-4-wrapper">
+                        <canvas id="chart-4-2"></canvas>
+                    </div>
+                    <div class="canvas-4-wrapper">
+                        <canvas id="chart-4-3"></canvas>
+                    </div>
+                    <div class="canvas-4-wrapper">
+                        <canvas id="chart-4-4"></canvas>
+                    </div>
+                    <div class="canvas-4-wrapper">
+                        <canvas id="chart-4-5"></canvas>
+                    </div>
+                    <div class="canvas-4-wrapper">
+                        <canvas id="chart-4-6"></canvas>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- //////////////////////////////////////////////////// -->
+
+            <div class="chart chart-5">
+
+                <div class="chart-name">
+                    <p>Укажите, что именно Вам понравилось в магазине? (Оценки 9-10)</p>
+                </div>
+
+                <div class="chart-5-block">
+                    <div class="canvas-5-wrapper">
+                        <canvas id="chart-5-1"></canvas>
+                    </div>
+                    <div class="canvas-5-wrapper">
+                        <canvas id="chart-5-2"></canvas>
+                    </div>
+                    <div class="canvas-5-wrapper">
+                        <canvas id="chart-5-3"></canvas>
+                    </div>
+                    <div class="canvas-5-wrapper">
+                        <canvas id="chart-5-4"></canvas>
+                    </div>
+                    <div class="canvas-5-wrapper">
+                        <canvas id="chart-5-5"></canvas>
+                    </div>
+                    <div class="canvas-5-wrapper">
+                        <canvas id="chart-5-6"></canvas>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- //////////////////////////////////////////////////// -->
+
+            <div class="chart chart-6">
+
+                <div class="chart-name">
+                    <p>График учета респондентов, которые перешли на Яндекс</p>
+                </div>
+                <div id="chart-6">
+                    <div class="progress-item">
+                        <p class="progress-name">Всего анкет</p>
+                        <div class="progress-container">
+                            <div class="progress-value" id="chart6_1"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <p class="progress-name">Перешли на Я.Карты</p>
+                        <div class="progress-container">
+                            <div class="progress-value" id="chart6_2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- //////////////////////////////////////////////////// -->
+
+            <div class="chart chart-7">
+                <canvas id="chart-7"></canvas>
+            </div>
+
+
+
+            <!-- //////////////////////////////////////////////////// -->
+
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+
+
+</body>
+
+</html>

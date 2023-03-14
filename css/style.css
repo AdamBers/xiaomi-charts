@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(/fonts/myriad/MYRIADPRO-REGULAR.OTF);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* user-select: none; */
+    text-size-adjust: none;
+    text-size-adjust: auto;
+    text-size-adjust: 80%;
+    text-size-adjust: inherit;
+    text-size-adjust: initial;
+    text-size-adjust: unset;
+    /* border: 1px solid black */
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    min-height: 100%;
+
+}
+
+
+.main-container {
+    border-color: antiquewhite;
+    max-width: 1280px;
+    border: 1px solid red;
+    margin: auto;
+    padding: 20px
+}
+
+.chart {
+    margin: 20px 0px;
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 65px 26px rgba(118, 61, 30, 0.01), 0px 37px 22px rgba(118, 61, 30, 0.02), 0px 16px 16px rgba(118, 61, 30, 0.03), 0px 4px 9px rgba(118, 61, 30, 0.04), 0px 0px 0px rgba(118, 61, 30, 0.04);
+    border-radius: 10px;
+}
+
+.chart-name {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #191919;
+    margin-bottom: 42px;
+}
+
+
+
+.progress-name {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.01em;
+    color: #868686;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 68px;
+}
+
+.progress-item {
+    height: 32px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 99px);
+    height: 32px;
+
+}
+
+.progress-value {
+
+    height: 32px;
+    border-radius: 0px 100px 100px 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.nps-content {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    color: #868686;
+}
+
+.chart-3-block, .chart-4-block, .chart-5-block {
+    display: flex;
+}
+
+.chart-3, .chart-4, .chart-5 {
+    overflow: scroll;
+}
+
+.canvas-3-wrapper, .canvas-4-wrapper, .canvas-5-wrapper {
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+}
