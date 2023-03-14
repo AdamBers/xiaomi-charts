@@ -1,4 +1,3 @@
-// Data //////////////////////////////////////////////////////////////////////////////////////////////////
 // chart1data Start
 const chart1_data = [90, 40, 20, 10, 50]
 const chart1_colors = ["#C52A26", "#F45E07", "#EF9B15", "#FF6900", "#EF9B15"]
@@ -107,9 +106,9 @@ const chart5_6_colors = [
     '#F6BA03',
     '#F4F4F4',
 ]
-//  Chart5data END
+//  Chart5data END /////////////////////////////////////////////////////////////////////////////////////////
 
-//  Chart6data Start
+//  Chart6data Start /////////////////////////////////////////////////////////////////////////////////////////
 const chart6_data = [100, 50]
 const chart6_colors = ["#F6BA03", "#C52A26"]
 //  Chart6data END
@@ -124,7 +123,7 @@ const centerTextPlugin = {
             chartArea: {
                 top,
                 right,
-                botto,
+                bottom,
                 left,
                 width,
                 height
@@ -138,11 +137,7 @@ const centerTextPlugin = {
     }
 }
 // Plugins END //////////////////////////////////////////////////////////////////////////////////////////////
-
-
 // Chart1 START /////////////////////////////////////////////////////////////////////////////////////////////
-
-
 document.getElementById("chart1_1").style.width = max1 * chart1_data[0] / 100 + "%"
 document.getElementById("chart1_2").style.width = max1 * chart1_data[1] / 100 + "%"
 document.getElementById("chart1_3").style.width = max1 * chart1_data[2] / 100 + "%"
@@ -334,6 +329,31 @@ new Chart(ctx3_6, {
         }
     }
 });
+
+document.getElementById('chart_3_bottom_1').innerHTML = chart3_1_data[0]
+document.getElementById('grade-value_3_1').style.width = chart3_1_data[0] / chart3_1_data[1] * 100 + "%"
+document.getElementById('grade-value_3_1').style.backgroundColor = chart3_1_colors[0]
+
+document.getElementById('chart_3_bottom_2').innerHTML = chart3_2_data[0]
+document.getElementById('grade-value_3_2').style.width = chart3_2_data[0] / chart3_2_data[1] * 100 + "%"
+document.getElementById('grade-value_3_2').style.backgroundColor = chart3_2_colors[0]
+
+document.getElementById('chart_3_bottom_3').innerHTML = chart3_3_data[0]
+document.getElementById('grade-value_3_3').style.width = chart3_3_data[0] / chart3_3_data[1] * 100 + "%"
+document.getElementById('grade-value_3_3').style.backgroundColor = chart3_3_colors[0]
+
+document.getElementById('chart_3_bottom_4').innerHTML = chart3_4_data[0]
+document.getElementById('grade-value_3_4').style.width = chart3_4_data[0] / chart3_4_data[1] * 100 + "%"
+document.getElementById('grade-value_3_4').style.backgroundColor = chart3_4_colors[0]
+
+document.getElementById('chart_3_bottom_5').innerHTML = chart3_5_data[0]
+document.getElementById('grade-value_3_5').style.width = chart3_5_data[0] / chart3_5_data[1] * 100 + "%"
+document.getElementById('grade-value_3_5').style.backgroundColor = chart3_5_colors[0]
+
+document.getElementById('chart_3_bottom_6').innerHTML = chart3_6_data[0]
+document.getElementById('grade-value_3_6').style.width = chart3_6_data[0] / chart3_6_data[1] * 100 + "%"
+document.getElementById('grade-value_3_6').style.backgroundColor = chart3_6_colors[0]
+
 // Chart3 END /////////////////////////////////////////////////////////////////////////////////////////////
 
 // Chart4 Start ///////////////////////////////////////////////////////////////////////////////////////////
