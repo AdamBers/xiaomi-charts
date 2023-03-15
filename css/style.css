@@ -123,13 +123,22 @@ body {
     overflow-x: scroll;
 }
 
-.canvas-3-wrapper, .canvas-4-wrapper, .canvas-5-wrapper {
+.canvas-3-wrapper:not(:last-child), .canvas-4-wrapper:not(:last-child), .canvas-5-wrapper:not(:last-child) {
     width: 150px;
     height: 150px;
-    margin-right: 30px;
+    margin-left: 40px;
+    padding-right: 40px;
+    border-right: 1px solid #EBEDEF;
     margin-bottom: 32px;
 }
 
+.canvas-3-wrapper:last-child, .canvas-4-wrapper:last-child, .canvas-5-wrapper:last-child {
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 32px;
+}
 
 .grade-name-block {
     display: flex;
@@ -347,6 +356,12 @@ body {
     color: #FFFFFF;
 }
 
+.canvas-3-wrapper, .canvas-4-wrapper, .canvas-5-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media(min-width: 768px) {
 
@@ -368,5 +383,42 @@ body {
 
 
 
-    
+    .chart-3, .chart-4, .chart-5 {
+        padding: 32px 46px
+    }
+
+    .chart-3-block, .chart-4-block, .chart-5-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .bottom-block {
+        display: flex;
+        min-width: 726px;
+        justify-content: space-between;
+    }
+
+    .bottom-left-block, .bottom-right-block {
+        width: calc(50% - 36px);
+        min-width: 363px;
+    }
+
+
+    .chart-6 {
+        padding: 32px 46px
+    }
+
+    .last-charts-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .chart-6, .chart-7 {
+        display: inline-block;
+        vertical-align: top;
+        min-height: 230px;
+        width: calc(50% - 12px);
+
+    }
 }
