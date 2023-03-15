@@ -55,6 +55,9 @@ body {
     letter-spacing: -0.01em;
     color: #191919;
     margin-bottom: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -106,6 +109,7 @@ body {
     line-height: 19px;
     letter-spacing: -0.01em;
     color: #868686;
+    /* max-width: 250px; */
 }
 
 .chart-3-block, .chart-4-block, .chart-5-block {
@@ -147,4 +151,114 @@ body {
 .grade-value {
     height: 8px;
     border-radius: 4px;
+}
+
+.chart-2 {
+    /* min-width: 500px */
+    overflow: scroll;
+
+}
+
+.nps {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.nps-img {
+    width: 47px;
+    height: 52px;
+    margin-bottom: 12px;
+}
+
+#chart-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+    min-width: 600px;
+}
+
+.dectators p {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #C42925;
+    margin-bottom: 20px;
+}
+
+.passives p {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FF6900;
+    margin-bottom: 20px;
+
+}
+
+.promoters p {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #F6B703;
+    margin-bottom: 20px;
+
+}
+
+.dectators::after {
+    content: "";
+    width: 1px;
+    border-right: 1px solid #F2F2F2;
+}
+
+.nps-block {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dectators span {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #C42925;
+}
+
+.passives span {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FF6900;
+}
+
+.promoters span {
+    font-family: 'Myriad Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #F6B703;
 }
