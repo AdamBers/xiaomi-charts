@@ -120,7 +120,7 @@ body {
 }
 
 .chart-3, .chart-4, .chart-5 {
-    overflow: scroll;
+    overflow-x: scroll;
 }
 
 .canvas-3-wrapper, .canvas-4-wrapper, .canvas-5-wrapper {
@@ -154,9 +154,8 @@ body {
 }
 
 .chart-2 {
-
-    overflow: scroll;
-
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .nps {
@@ -346,4 +345,28 @@ body {
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+
+@media(min-width: 768px) {
+
+
+    .chart-1, .chart-2 {
+        display: inline-block;
+        vertical-align: top;
+        height: 470px;
+        width: calc(50% - 24px);
+        padding: 32px 46px
+    }
+
+    .chart-1 {
+        margin-right: 24px;
+    }
+
+
+
+
+
+
+    
 }
