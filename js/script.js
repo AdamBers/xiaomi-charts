@@ -163,6 +163,11 @@ document.getElementById('8').innerHTML = chart2_data[7]
 document.getElementById('9').innerHTML = chart2_data[8]
 document.getElementById('10').innerHTML = chart2_data[9]
 
+
+document.getElementById('dect-bottom').innerHTML = "# %"
+document.getElementById('passiv-bottom').innerHTML = "# %"
+document.getElementById('prom-bottom').innerHTML = "# %"
+
 // Chart2 END /////////////////////////////////////////////////////////////////////////////////////////////
 // Chart3 Start /////////////////////////////////////////////////////////////////////////////////////////////
 const ctx3_1 = document.getElementById('chart-3-1');
