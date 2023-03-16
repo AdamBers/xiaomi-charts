@@ -1,5 +1,5 @@
 // chart1data Start
-const chart1_data = [90, 40, 20, 10, 50]
+const chart1_data = [100, 40, 20, 10, 50]
 const chart1_colors = ["#C52A26", "#F45E07", "#EF9B15", "#FF6900", "#EF9B15"]
 max1 = Math.max.apply(null, chart1_data);
 // chart1data END
@@ -165,9 +165,9 @@ document.getElementById('10').innerHTML = chart2_data[9]
 document.getElementById('11').innerHTML = chart2_data[10]
 
 
-document.getElementById('dect-bottom').innerHTML = "# %"
-document.getElementById('passiv-bottom').innerHTML = "# %"
-document.getElementById('prom-bottom').innerHTML = "# %"
+document.getElementById('dect-bottom').innerHTML = "10%"
+document.getElementById('passiv-bottom').innerHTML = "10%"
+document.getElementById('prom-bottom').innerHTML = "10%"
 
 // Chart2 END /////////////////////////////////////////////////////////////////////////////////////////////
 // Chart3 Start /////////////////////////////////////////////////////////////////////////////////////////////
@@ -200,7 +200,7 @@ new Chart(ctx3_1, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart3_1_data[0] / chart3_1_data[1] * 100) + " %"
+                value: Math.round(chart3_1_data[0] / chart3_1_data[1] * 100) + "%"
             },
         }
     }
@@ -228,7 +228,7 @@ new Chart(ctx3_2, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart3_2_data[0] / chart3_2_data[1] * 100) + " %"
+                value: Math.round(chart3_2_data[0] / chart3_2_data[1] * 100) + "%"
             },
         }
     }
@@ -256,7 +256,7 @@ new Chart(ctx3_3, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart3_3_data[0] / chart3_3_data[1] * 100) + " %"
+                value: Math.round(chart3_3_data[0] / chart3_3_data[1] * 100) + "%"
             },
         }
     }
@@ -285,7 +285,7 @@ new Chart(ctx3_4, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart3_4_data[0] / chart3_4_data[1] * 100) + " %"
+                value: Math.round(chart3_4_data[0] / chart3_4_data[1] * 100) + "%"
             },
         }
     }
@@ -313,7 +313,7 @@ new Chart(ctx3_5, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart3_5_data[0] / chart3_5_data[1] * 100) + " %"
+                value: Math.round(chart3_5_data[0] / chart3_5_data[1] * 100) + "%"
             },
         }
     }
@@ -341,7 +341,7 @@ new Chart(ctx3_6, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart3_6_data[0] / chart3_6_data[1] * 100) + " %"
+                value: Math.round(chart3_6_data[0] / chart3_6_data[1] * 100) + "%"
             },
         }
     }
@@ -402,7 +402,7 @@ new Chart(ctx4_1, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart4_1_data[0] / chart4_1_data[1] * 100) + " %"
+                value: Math.round(chart4_1_data[0] / chart4_1_data[1] * 100) + "%"
             },
         }
     }
@@ -429,7 +429,7 @@ new Chart(ctx4_2, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart4_2_data[0] / chart4_2_data[1] * 100) + " %"
+                value: Math.round(chart4_2_data[0] / chart4_2_data[1] * 100) + "%"
             },
         }
     }
@@ -456,7 +456,7 @@ new Chart(ctx4_3, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart4_3_data[0] / chart4_3_data[1] * 100) + " %"
+                value: Math.round(chart4_3_data[0] / chart4_3_data[1] * 100) + "%"
             },
         }
     }
@@ -483,7 +483,7 @@ new Chart(ctx4_4, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart4_4_data[0] / chart4_4_data[1] * 100) + " %"
+                value: Math.round(chart4_4_data[0] / chart4_4_data[1] * 100) + "%"
             },
         }
     }
@@ -510,7 +510,7 @@ new Chart(ctx4_5, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart4_5_data[0] / chart4_5_data[1] * 100) + " %"
+                value: Math.round(chart4_5_data[0] / chart4_5_data[1] * 100) + "%"
             },
         }
     }
@@ -537,7 +537,7 @@ new Chart(ctx4_6, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart4_6_data[0] / chart4_6_data[1] * 100) + " %"
+                value: Math.round(chart4_6_data[0] / chart4_6_data[1] * 100) + "%"
             },
         }
     }
@@ -605,7 +605,7 @@ new Chart(ctx5_1, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart5_1_data[0] / chart5_1_data[1] * 100) + " %"
+                value: Math.round(chart5_1_data[0] / chart5_1_data[1] * 100) + "%"
             },
         }
     }
@@ -632,7 +632,7 @@ new Chart(ctx5_2, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart5_2_data[0] / chart5_2_data[1] * 100) + " %"
+                value: Math.round(chart5_2_data[0] / chart5_2_data[1] * 100) + "%"
             },
         }
     }
@@ -659,7 +659,7 @@ new Chart(ctx5_3, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart5_3_data[0] / chart5_3_data[1] * 100) + " %"
+                value: Math.round(chart5_3_data[0] / chart5_3_data[1] * 100) + "%"
             },
         }
     }
@@ -686,7 +686,7 @@ new Chart(ctx5_4, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart5_4_data[0] / chart5_4_data[1] * 100) + " %"
+                value: Math.round(chart5_4_data[0] / chart5_4_data[1] * 100) + "%"
             },
         }
     }
@@ -713,7 +713,7 @@ new Chart(ctx5_5, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart5_5_data[0] / chart5_5_data[1] * 100) + " %"
+                value: Math.round(chart5_5_data[0] / chart5_5_data[1] * 100) + "%"
             },
         }
     }
@@ -740,7 +740,7 @@ new Chart(ctx5_6, {
                 fontSize: 19,
                 fontFamily: "Myriad Pro",
                 fontColor: "#264653",
-                value: Math.round(chart5_6_data[0] / chart5_6_data[1] * 100) + " %"
+                value: Math.round(chart5_6_data[0] / chart5_6_data[1] * 100) + "%"
             },
         }
     }
