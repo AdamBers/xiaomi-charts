@@ -203,8 +203,9 @@ new Chart(ctx3_1, {
             backgroundColor: chart3_1_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -231,8 +232,8 @@ new Chart(ctx3_2, {
             backgroundColor: chart3_2_colors
         }]
     },
-    cutout: 80,
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -259,8 +260,9 @@ new Chart(ctx3_3, {
             backgroundColor: chart3_3_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -288,8 +290,8 @@ new Chart(ctx3_4, {
             backgroundColor: chart3_4_colors
         }]
     },
-    cutout: 80,
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -316,8 +318,9 @@ new Chart(ctx3_5, {
             backgroundColor: chart3_5_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -344,8 +347,9 @@ new Chart(ctx3_6, {
             backgroundColor: chart3_6_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -405,8 +409,9 @@ new Chart(ctx4_1, {
             backgroundColor: chart4_1_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -432,8 +437,9 @@ new Chart(ctx4_2, {
             backgroundColor: chart4_2_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -459,8 +465,9 @@ new Chart(ctx4_3, {
             backgroundColor: chart4_3_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -486,8 +493,9 @@ new Chart(ctx4_4, {
             backgroundColor: chart4_4_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -513,8 +521,9 @@ new Chart(ctx4_5, {
             backgroundColor: chart4_5_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -540,8 +549,9 @@ new Chart(ctx4_6, {
             backgroundColor: chart4_6_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -608,8 +618,9 @@ new Chart(ctx5_1, {
             backgroundColor: chart5_1_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -635,8 +646,9 @@ new Chart(ctx5_2, {
             backgroundColor: chart5_2_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -662,8 +674,9 @@ new Chart(ctx5_3, {
             backgroundColor: chart5_3_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -689,8 +702,9 @@ new Chart(ctx5_4, {
             backgroundColor: chart5_4_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -716,8 +730,9 @@ new Chart(ctx5_5, {
             backgroundColor: chart5_5_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
@@ -743,8 +758,9 @@ new Chart(ctx5_6, {
             backgroundColor: chart5_6_colors
         }]
     },
-    cutout: 80,
+
     options: {
+        cutout: "65%",
         maintainAspectRatio: true,
         responsive: true,
         plugins: {
