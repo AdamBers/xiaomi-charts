@@ -542,7 +542,7 @@ body {
     }
 }
 
-@media(min-width: 1440px) {
+@media(min-width: 1240px) {
     .chart-3-block, .chart-4-block, .chart-5-block {
         flex-direction: row;
     }
