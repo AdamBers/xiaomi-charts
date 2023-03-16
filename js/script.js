@@ -1,8 +1,11 @@
 // chart1data Start
-const chart1_data = [100, 40, 20, 10, 50]
+const chart1_data = [90, 40, 20, 10, 50]
 const chart1_colors = ["#C52A26", "#F45E07", "#EF9B15", "#FF6900", "#EF9B15"]
-max1 = Math.max.apply(null, chart1_data);
+max1 = 100
+// max1 = Math.max.apply(null, chart1_data);
 // chart1data END
+
+
 
 // chart2data Start
 const chart2_data = [0, 3, 0, 4, 9, 4, 4, 37, 79, 152, 1644]
@@ -140,6 +143,13 @@ const centerTextPlugin = {
     }
 }
 // Plugins END //////////////////////////////////////////////////////////////////////////////////////////////
+console.log(document.getElementById("chart-3-block").scrollWidth)
+
+document.getElementById("")
+
+
+
+
 // Chart1 START /////////////////////////////////////////////////////////////////////////////////////////////
 document.getElementById("chart1_1").style.width = max1 * chart1_data[0] / 100 + "%"
 document.getElementById("chart1_2").style.width = max1 * chart1_data[1] / 100 + "%"

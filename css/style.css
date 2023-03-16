@@ -372,74 +372,6 @@ body {
     margin-top: 0px;
 }
 
-@media(min-width: 768px) {
-
-
-    .chart-1, .chart-2 {
-        display: inline-block;
-        vertical-align: top;
-        height: 470px;
-        width: calc(50% - 24px);
-        padding: 32px 46px
-    }
-
-    .chart-1 {
-        margin-right: 24px;
-    }
-
-
-
-
-
-
-    .chart-3, .chart-4, .chart-5 {
-        padding: 32px 46px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .chart-3-block, .chart-4-block, .chart-5-block {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .canvas-3-wrapper:not(:last-child), .canvas-4-wrapper:not(:last-child), .canvas-5-wrapper:not(:last-child) {
-        border-right: 1px solid #EBEDEF;
-    }
-
-    .bottom-block {
-        display: flex;
-        width: 100%;
-        /* min-width: 726px; */
-        justify-content: space-between;
-    }
-
-    .bottom-left-block, .bottom-right-block {
-        /* display: inline-block; */
-        width: calc(50% - 36px);
-        /* min-width: 363px; */
-    }
-
-
-    .chart-6 {
-        padding: 32px 46px
-    }
-
-    .last-charts-container {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .chart-6, .chart-7 {
-        display: inline-block;
-        vertical-align: top;
-        min-height: 230px;
-        width: calc(50% - 12px);
-
-    }
-}
-
 #chart-1 {
     position: relative;
     z-index: 10;
@@ -468,7 +400,7 @@ body {
     font-family: 'Myriad Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 10px;
     line-height: 17px;
     text-align: center;
     letter-spacing: -0.01em;
@@ -487,4 +419,137 @@ body {
     top: 220px;
     left: 85px;
     z-index: 9;
+}
+
+.chart-3-first, .chart-3-second,
+.chart-4-first, .chart-4-second,
+.chart-5-first, .chart-5-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media(min-width: 375px) {
+    .scale-numbers {
+        font-size: 14px;
+    }
+}
+
+
+
+@media(min-width: 768px) {
+    .chart-1, .chart-2 {
+        display: inline-block;
+        vertical-align: top;
+        height: 470px;
+        width: calc(50% - 24px);
+        padding: 32px 46px
+    }
+
+    .chart-1 {
+        margin-right: 24px;
+    }
+
+    .chart-3, .chart-4, .chart-5 {
+        padding: 32px 46px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chart-3-block, .chart-4-block, .chart-5-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .canvas-3-wrapper:not(:last-child), .canvas-4-wrapper:not(:last-child), .canvas-5-wrapper:not(:last-child) {
+        border-right: 1px solid #EBEDEF;
+    }
+
+    .bottom-block {
+        display: flex;
+        width: 100%;
+        /* min-width: 726px; */
+        justify-content: space-between;
+    }
+
+    .bottom-left-block, .bottom-right-block {
+        width: calc(50% - 36px);
+    }
+
+
+    .chart-6 {
+        padding: 32px 46px
+    }
+
+    .last-charts-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .chart-6, .chart-7 {
+        display: inline-block;
+        vertical-align: top;
+        min-height: 230px;
+        width: calc(50% - 12px);
+
+    }
+
+    .chart-3-block {
+        flex-direction: column;
+    }
+
+    .chart-4-block {
+        flex-direction: column;
+    }
+
+    .chart-5-block {
+        flex-direction: column;
+    }
+
+    .chart-3-first, .chart-3-second {
+        flex-direction: row;
+    }
+
+    .chart-4-first, .chart-4-second {
+        flex-direction: row;
+    }
+
+    .chart-5-first, .chart-5-second {
+        flex-direction: row;
+    }
+
+    .canvas-3-wrapper:not(:last-child), .canvas-4-wrapper:not(:last-child), .canvas-5-wrapper:not(:last-child) {
+        border-right: none;
+    }
+
+    .chart-3-block, .chart-4-block, .chart-5-block {
+        align-items: stretch;
+    }
+}
+
+@media(min-width: 1024px) {
+    .chart-1, .chart-2 {
+        height: 440px;
+    }
+
+    .chart-1 {
+        width: calc(40% - 24px);
+    }
+
+    .chart-2 {
+        width: calc(60% - 24px);
+    }
+}
+
+@media(min-width: 1440px) {
+    .chart-3-block, .chart-4-block, .chart-5-block {
+        flex-direction: row;
+    }
+
+    .canvas-3-wrapper:not(:last-child), .canvas-4-wrapper:not(:last-child), .canvas-5-wrapper:not(:last-child) {
+        border-right: 1px solid #EBEDEF;
+    }
+
+   
 }
