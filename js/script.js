@@ -3,8 +3,11 @@ const chart1_data = [100, 40, 20, 10, 50]
 const chart1_colors = ["#C52A26", "#F45E07", "#EF9B15", "#FF6900", "#EF9B15"]
 max1 = Math.max.apply(null, chart1_data);
 // chart1data END
+
 // chart2data Start
 const chart2_data = [0, 3, 0, 4, 9, 4, 4, 37, 79, 152, 1644]
+
+const chart2_nps_scrore = 10
 // chart2data END
 
 // chart3data Start
@@ -168,6 +171,8 @@ document.getElementById('11').innerHTML = chart2_data[10]
 document.getElementById('dect-bottom').innerHTML = "10%"
 document.getElementById('passiv-bottom').innerHTML = "10%"
 document.getElementById('prom-bottom').innerHTML = "10%"
+document.getElementById('nps-score').innerHTML = chart2_nps_scrore + "%"
+
 
 // Chart2 END /////////////////////////////////////////////////////////////////////////////////////////////
 // Chart3 Start /////////////////////////////////////////////////////////////////////////////////////////////
