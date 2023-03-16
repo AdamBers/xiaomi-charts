@@ -119,10 +119,6 @@ body {
     margin-bottom: 32px;
 }
 
-.chart-3, .chart-4, .chart-5 {
-    overflow-x: scroll;
-}
-
 .canvas-3-wrapper, .canvas-4-wrapper, .canvas-5-wrapper {
     width: 150px;
     height: 150px;
@@ -551,5 +547,9 @@ body {
         border-right: 1px solid #EBEDEF;
     }
 
-   
+    .chart-2 {
+        overflow: hidden;
+    }
+
+
 }
