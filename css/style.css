@@ -416,7 +416,7 @@ body {
 
     .bottom-left-block, .bottom-right-block {
         /* display: inline-block; */
-        /* width: calc(50% - 36px); */
+        width: calc(50% - 36px);
         /* min-width: 363px; */
     }
 
